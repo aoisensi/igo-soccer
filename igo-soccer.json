@@ -1,0 +1,87 @@
+{
+  "SaveName": "囲碁サッカー",
+  "Table": "Table_Square",
+  "Sky": "Sky_Downtown",
+  "ObjectStates": [
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 6.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": -15.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/aoisensi/igo-soccer/master/football/football.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/aoisensi/igo-soccer/master/football/football_map.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://raw.githubusercontent.com/aoisensi/igo-soccer/master/football/collider.obj",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      }
+    },
+    {
+      "Name": "go_game_bowl_white",
+      "Transform": {
+        "posX": -12.5,
+        "posY": 5.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      }
+    },
+    {
+      "Name": "go_game_bowl_black",
+      "Transform": {
+        "posX": 12.5,
+        "posY": 7.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      }
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": 0.5,
+        "posY": 15.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      }
+    },
+    {
+      "Name": "go_game_piece_black",
+      "Transform": {
+        "posX": -0.5,
+        "posY": 17.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      }
+    }
+  ]
+}
